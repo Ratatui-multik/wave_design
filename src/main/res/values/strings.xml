@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HealthWave</string>
+    <string name="itemMenuMail">send mail</string>
+    <string name="itemMenuCall">call operator</string>
+    <string name="itemMenuSite">visite site</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="buy_count">1</string>
+    <string name="total">30</string>
+    <string name="to_return">Пляшок на повернення</string>
+    <string name="return_count">1</string>
+    <string name="to_buy">Пляшок замовити</string>
+    <string name="name"> Ім\'я:  </string>
+    <string name="telephon">Телефон:</string>
+    <string name="city"> Місто: </string>
+    <string name="adress">Адреса: </string>
+    <string name="Kyiv">    Київ</string>
+    <string name="now">Привезти найближчим часом</string>
+    <string name="later">Обрати час доставки</string>
+    <string name="ok">так</string>
+    <string name="cancel">відміна</string>
+    <string name="special">особливі побажання</string>
+    <string name="proove">"Підтвердження інформації"</string>
+    <string name="hour">год.</string>
+    <string name="uah"> грн</string>
+    <string name="digit_keyboard_font">fonts/DroidSerif-Regular.ttf</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottles_fon"
+    android:scaleType="fitXY"
+    android:baselineAligned="false"
+    >
+
+
+    <TextView
+        android:id="@+id/textViewAmount"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewToReturn"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textViewToReturn"
+        android:layout_marginTop="167dp"
+        android:text="@string/total"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPlusBuy"
+        android:src="@drawable/plus_button"
+        android:layout_above="@+id/textViewToReturn"
+        android:layout_toRightOf="@+id/textViewToBuy"
+        android:layout_toEndOf="@+id/textViewToBuy" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewMinusBuy"
+        android:src="@drawable/minus_button"
+        android:layout_above="@+id/textViewToReturn"
+        android:layout_toLeftOf="@+id/textViewToBuy"
+        android:layout_toStartOf="@+id/textViewToBuy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/buy_count"
+        android:id="@+id/textViewBuy"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textViewToBuy"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewPlusReturn"
+        android:src="@drawable/plus_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageViewPlusBuy"
+        android:layout_alignStart="@+id/imageViewPlusBuy"
+        android:layout_marginBottom="74dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewMinusReturn"
+        android:src="@drawable/minus_button"
+        android:layout_alignBottom="@+id/imageViewPlusReturn"
+        android:layout_alignLeft="@+id/imageViewMinusBuy"
+        android:layout_alignStart="@+id/imageViewMinusBuy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/return_count"
+        android:id="@+id/textViewReturn"
+        android:layout_below="@+id/textViewToReturn"
+        android:layout_alignLeft="@+id/textViewBuy"
+        android:layout_alignStart="@+id/textViewBuy"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/to_return"
+        android:id="@+id/textViewToReturn"
+        android:layout_above="@+id/imageViewPlusReturn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/to_buy"
+        android:id="@+id/textViewToBuy"
+        android:layout_above="@+id/imageViewMinusBuy"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewAmount"
+        android:layout_toEndOf="@+id/textViewAmount"
+        android:layout_toRightOf="@+id/textViewAmount"
+        android:text="@string/uah" />
+</RelativeLayout>
